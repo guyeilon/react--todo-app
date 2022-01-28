@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import { Typography, Button, ButtonGroup } from '@mui/material';
 import { Create, Delete, CheckCircle } from '@material-ui/icons';
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@material-ui/styles';
 
 import moment from 'moment';
 
@@ -63,7 +63,7 @@ const Todo = ({ todo, setTodo }) => {
             <Typography variant='subtitle1'>{todo.name}</Typography>
           )}
           <Typography className={classes.grayStyle} variant='body2'>
-            Author: Guy
+            Author: {todo.author}
           </Typography>
           <Typography className={classes.grayStyle} variant='body2'>
             Added: {moment(todo.date).fromNow()}

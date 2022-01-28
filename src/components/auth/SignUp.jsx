@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 
 import { Typography, TextField, Button } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@material-ui/styles';
 
 import { signUp } from '../../store/actions/authActions';
 

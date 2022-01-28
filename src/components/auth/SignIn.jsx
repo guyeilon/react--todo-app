@@ -5,7 +5,7 @@ import { Navigate } from 'react-router-dom';
 import { signIn } from '../../store/actions/authActions';
 
 import { Typography, TextField, Button } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
   formStyle: {
